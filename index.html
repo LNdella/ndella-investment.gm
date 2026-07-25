@@ -414,9 +414,15 @@ Equipment Rental
 
 <div>
     
-<!-- WhatsApp Floating Button -->
-<a href="https://wa.me/2207692244?text=Hello%20Ndella%20Investment%20%26%20Logistics,%20I%20would%20like%20to%20request%20a%20quotation."
-  .whatsapp-float{
+<head>
+
+<style>
+
+/* Your existing CSS */
+
+/* WhatsApp Floating Button */
+
+.whatsapp-float{
     position: fixed;
     width: 42px;
     height: 42px;
@@ -427,21 +433,43 @@ Equipment Rental
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+    box-shadow: 0 4px 10px rgba(0,0,0,.25);
     z-index: 9999;
-    transition: 0.3s ease;
+    transition: all 0.3s ease;
 }
 
 .whatsapp-float:hover{
     transform: scale(1.1);
+    background: #20b858;
 }
 
 .whatsapp-float img{
     width: 20px;
     height: 20px;
     filter: brightness(0) invert(1);
-}>
+}
+
+</style>
+
+</head>
+
+<body>
+
+<!-- Your website content -->
+
+<!-- WhatsApp Floating Button -->
+<a href="https://wa.me/2207692244?text=Hello%20Ndella%20Investment%20%26%20Logistics,%20I%20would%20like%20to%20request%20a%20quotation."
+   class="whatsapp-float"
+   target="_blank"
+   rel="noopener noreferrer"
+   aria-label="Chat with us on WhatsApp">
+
+    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/whatsapp.svg"
+         alt="WhatsApp">
+
 </a>
+
+</body>
  
 <h3>Contact Information</h3>
 
