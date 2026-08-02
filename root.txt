@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://lndella.github.io/ndella-investment.gm/sitemap.xml
